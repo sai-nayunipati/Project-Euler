@@ -10,7 +10,7 @@ def algorithm():
     for i in range (1, 334): # range is [a,b)
         runningTotal += i * 3
     # Add all multiples of five, PROVIDED they are not a multiple of three
-    for i in range (1, 200):
+    for i in range (1, 200): # I  want all the valid numbers BELOW 1000
         if i % 3 != 0:
             runningTotal += i * 5
     
